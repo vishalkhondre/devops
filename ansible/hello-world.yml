@@ -2,7 +2,7 @@
 # This playbook prints a simple debug message
 - name: Echo 
   hosts: all
-  connection: local
+  #connection: local
 
   tasks:
   - name: Print debug message

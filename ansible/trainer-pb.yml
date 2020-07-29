@@ -13,3 +13,21 @@
 
   - name: service management
     service: name=httpd state=startd
+
+  - name: site deployment
+    copy: src=./index.html dest=/var/www/html/
+
+  
+- name: user managment
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  become: true
+
+  tasks:
+
+  - name: user managment
+    user: name={{user_name}} state=present
+
+  - name: install app
+    package: name=nano state=prsent
