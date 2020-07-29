@@ -1,16 +1,6 @@
-- name: Network Getting Started First Playbook
-  #connection: network_cli
-  #gather_facts: false
-  hosts: 10.0.0.23
+- name: Getting Started First Playbook
+  hosts: all
   tasks:
-
-    # - name: Get config for VyOS devices
-    #   vyos_facts:
-    #     gather_subset: all
-
-    # - name: Display the config
-    #   debug:
-    #     msg: "The hostname is {{ ansible_net_hostname }} and the OS is {{ ansible_net_version }}"
 
   - name:  create local directory in ansible
     local_action:
