@@ -1,5 +1,7 @@
 - name: Getting Started First Playbook
-  hosts: all
+  hosts: 10.0.0.23
+  remote_user: vmadmin
+  gather_facts: false
   tasks:
 
   - name:  create local directory in ansible

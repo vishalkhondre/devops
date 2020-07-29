@@ -1,0 +1,15 @@
+---
+
+- name: Webserver configuration
+  hosts: 10.0.0.23
+  remote_user: vmadmin
+  gather_facts: false
+  become: true
+
+  tasks:
+  
+  - name: package managment
+    yum: name=httpd state=present
+
+  - name: service management
+    service: name=httpd state=startd
