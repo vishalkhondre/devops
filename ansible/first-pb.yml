@@ -4,8 +4,13 @@
   gather_facts: false
   tasks:
 
-  - name:  create local directory in ansible
-    local_action:
-      module: file
-      path: /tmp/localdir
-      state: directory        
+  # - name:  create local directory in ansible
+  #   local_action:
+  #     module: file
+  #     path: /tmp/localdir
+  #     state: directory
+
+  - name: ansible create directory example
+    file:
+      path: /tmp/devops_directory
+      state: directory
