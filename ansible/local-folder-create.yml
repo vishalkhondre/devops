@@ -1,0 +1,10 @@
+- name: Getting Started First Playbook
+  hosts: 127.0.0.1
+  connection: local
+  tasks:
+
+  - name:  create local directory in ansible
+    local_action:
+      module: file
+      path: /tmp/localdir
+      state: directory        
