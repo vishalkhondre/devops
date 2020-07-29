@@ -1,7 +1,7 @@
 - name: Network Getting Started First Playbook
   #connection: network_cli
   #gather_facts: false
-  hosts: all
+  hosts: 10.0.0.23
   tasks:
 
     # - name: Get config for VyOS devices
