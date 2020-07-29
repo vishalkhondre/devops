@@ -47,3 +47,9 @@ Artifactory: Plugin in Jenkins: Artifactory
 http://ec2-18-188-150-244.us-east-2.compute.amazonaws.com:8081/artifactory
 
 user1/password123
+
+
+curl -uuser1:password123 -O "http://ec2-18-188-150-244.us-east-2.compute.amazonaws.com:8081/artifactory/QA-TPT1/Helloworldwebapp.war"
+
+
+checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/ganeshhp/helloworldweb.git']]])

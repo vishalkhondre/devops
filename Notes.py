@@ -21,3 +21,6 @@ https://linuxize.com/post/how-to-install-jenkins-on-centos-7/
 
 # Install Artifactory
 
+# Install Ansible
+https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-centos-7
+
