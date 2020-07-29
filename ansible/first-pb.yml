@@ -15,5 +15,5 @@
   - name:  create local directory in ansible
     local_action:
       module: file
-      path: /opt/localdir
+      path: /remote_shared/localdir
       state: directory        
