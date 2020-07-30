@@ -1,6 +1,10 @@
-- name: install the Win32-OpenSSH service
-  hosts: 10.0.0.6
-  win_chocolatey:
-    name: openssh
-    package_params: /SSHServerFeature
-    state: present
+- name: install ssh
+  hosts: 10.0.0.23
+
+  tasks:
+
+  - name: install the Win32-OpenSSH service
+    win_chocolatey:
+      name: openssh
+      package_params: /SSHServerFeature
+      state: present
