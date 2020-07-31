@@ -7,6 +7,6 @@
       path: \\DevOpsLab00\softwares\python-3.8.5.exe
       product_id: python8
       state: present
-      user_name: P2LP5CD64107QH\vmadmin
-      user_password: Fiserv@123
+      user_name: domain\vmadmin1234
+      user_password: 123456
       reboot_required: false

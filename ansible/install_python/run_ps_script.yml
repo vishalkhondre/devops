@@ -3,7 +3,7 @@
   tasks:
     - 
       name: Install python using Chocolatey
-      script: hello.ps1 universe
+      script: installpython.ps1 universe
       register: out
 
     - debug: var=out.stdout_lines

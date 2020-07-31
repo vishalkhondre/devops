@@ -2,6 +2,9 @@
     Capture all notes related to Ansible
 """
 
+""" pbs stands for playbooks """
+
+
 # path of Ansible install files
 cd /etc/ansible/
 
