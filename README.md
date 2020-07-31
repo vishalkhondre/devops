@@ -2,7 +2,7 @@
 Capture learning
 
 # Install softwares / tools on Centos 8
-## Install Instructions
+* [Install Instructions](https://github.com/vishalkhondre/devops/wiki)
 
 ## Jenkins
 
