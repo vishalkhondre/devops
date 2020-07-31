@@ -1,0 +1,10 @@
+---
+- hosts: windows
+  tasks:
+
+  - name: Install python on windows using the credentials
+    win_package:
+      path: C:\softwares\python-3.8.5.exe
+      state: present
+      user_name: .\vmadmin
+      user_password: Fiserv@123    
