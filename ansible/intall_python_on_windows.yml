@@ -4,7 +4,7 @@
 
   - name: Install python on windows using the credentials
     win_package:
-      path: \\DevOpsLab00\C$\softwares\python-3.8.5.exe
+      path: \\DevOpsLab00\softwares\python-3.8.5.exe
       product_id: python8
       state: present
       user_name: .\vmadmin
