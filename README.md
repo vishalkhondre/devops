@@ -5,7 +5,7 @@ Capture learning
 * [Install Instructions](https://github.com/vishalkhondre/devops/wiki)
 
 ## Tools
-### Jenkins
+* ### Jenkins
 
-### Ansible
+* ### Ansible
 * [Ansible Wiki](https://github.com/vishalkhondre/devops/wiki/Ansible)
