@@ -10,4 +10,4 @@
     win_chocolatey:
       name: python3
       state: present
-      reboot_required: false
+      architecture: x86
