@@ -1,0 +1,10 @@
+- name: learn conditions
+  hosts: windows
+  remote_user: vmadmin
+  gather_facts: true
+  tasks:
+
+  tasks:
+  - name: Print debug message
+    debug:
+      msg: Hello, world!
