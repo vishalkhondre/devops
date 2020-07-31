@@ -1,10 +1,11 @@
 # devops
 Capture learning
 
-# Install softwares / tools on Centos 8
+## Install softwares / tools on Centos 8
 * [Install Instructions](https://github.com/vishalkhondre/devops/wiki)
 
-## Jenkins
+##Tools
+### Jenkins
 
-## Ansible
+### Ansible
 * [Ansible Wiki](https://github.com/vishalkhondre/devops/wiki/Ansible)
