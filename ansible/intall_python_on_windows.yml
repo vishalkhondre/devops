@@ -4,7 +4,9 @@
 
   - name: Install python on windows using the credentials
     win_package:
-      path: C:\softwares\python-3.8.5.exe
+      path: \\domain\programs\7z.exe
+      product_id: python8
       state: present
       user_name: .\vmadmin
-      user_password: Fiserv@123    
+      user_password: Fiserv@123
+      reboot_required: false
