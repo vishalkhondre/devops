@@ -14,7 +14,7 @@
       private: no
  
     - name: lastname
-      prompt: "Enter last name Name?"
+      prompt: "What is your last name?"
       private: no
  
   tasks:
