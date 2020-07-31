@@ -2,7 +2,7 @@
 - hosts: windows
   tasks:
     - 
-      name: exeute hello powershell
+      name: Install python using Chocolatey
       script: hello.ps1 universe
       register: out
 
