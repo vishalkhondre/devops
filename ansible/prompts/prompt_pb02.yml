@@ -1,5 +1,10 @@
 ---
 
+# run below command to execute this playbook
+# ansible-playbook ./ansible/prompts/prompt_pb02.yml -vvvv
+# run below command to accept prompt values through command
+# ansible-playbook ./ansible/prompts/prompt_pb02.yml -vvvv -e "firstname='v' lastname='k'"
+
 - hosts: localhost
   connection: local
   vars_prompt:
