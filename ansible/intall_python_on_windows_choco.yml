@@ -1,0 +1,13 @@
+---
+- hosts: windows
+  remote_user: vmadmin
+  connection: winrm
+  gather_facts: true
+
+  tasks:
+
+  - name: Install python on windows using choco
+    win_chocolatey:
+      name: python3
+      state: present
+      reboot_required: false
