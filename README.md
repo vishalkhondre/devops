@@ -7,5 +7,4 @@ Capture learning
 ## Tools
 * ### Jenkins
 
-* ### Ansible
- * [Ansible Wiki](https://github.com/vishalkhondre/devops/wiki/Ansible)
+* ### [Ansible Wiki](https://github.com/vishalkhondre/devops/wiki/Ansible)
