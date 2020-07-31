@@ -1,5 +1,5 @@
 - name: learn conditions
-  hosts: windows
+  hosts: localhost
   remote_user: vmadmin
   gather_facts: true
   tasks:
