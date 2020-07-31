@@ -1,0 +1,18 @@
+---
+
+- hosts: localhost
+  connection: local
+  vars_prompt:
+ 
+    - name: firstname
+      prompt: "What is your first name?"
+      private: no
+ 
+    - name: lastname
+      prompt: "Enter last name Name?"
+      private: no
+ 
+  tasks:
+ 
+    - debug:
+        msg: 'Welcome {{ firstname }} {{ lastname }}'
